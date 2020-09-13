@@ -25,7 +25,8 @@ class Person:
     def set_friends(self):
         self.friends = 1
 
-class Old_man(Person):
+
+class OldMan(Person):
     fireball = 0
 
     def __init__(self, name):
