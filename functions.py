@@ -3,8 +3,8 @@ from time import sleep
 
 
 def read_formatted_file(self, file_name):
-    print('\n' + '*' * 70)
-    print()
+    print('-' * 70)
+    # print()
     file = open('text_files/' + file_name + '.txt', 'r')
     myfile = f"{file.read()}".format(**locals())
     print(myfile)
@@ -31,9 +31,9 @@ def instructions():
                   'Type YES(Y) if you understand or NO(N) if you do not:  ')
     value = value.lower()
 
-    if value == 'yes':
+    if value == 'yes' or value == 'y':
         pass
-    elif value == 'no':
+    elif value == 'no' or value == 'n':
         print("Well if you don't agree then you can't go on the adventure.")
         exit()
     elif value == 'quit':
@@ -59,7 +59,7 @@ def left(self):
     print('The numbers in the lottery are:')
     num_matches = 0
     for i in range(5):
-        print(lottery_numbers[i]);
+        print(lottery_numbers[i])
         sleep(0.6)
 
     for j in numbers:
@@ -85,3 +85,18 @@ def left(self):
 def game_over():
     print('You lose, try again.')
     exit()
+
+
+def header(self):
+    print('\n' + '*' * 70)
+    print(f'name: {self.name}        matches: {self.matches}        Friends: {self.friends}')
+    print('*' * 70)
+    print()
+
+
+def header_with_buddy(self, another):
+    print('\n' + '*' * 70)
+    print(f'name: {self.name}        matches: {self.matches}        Friends: {self.friends}')
+    print(f'name: {another.name}     matches: {another.matches}     Magic Fireball {another.fireball}')
+    print('*' * 70)
+    print()

@@ -1,0 +1,3 @@
+"I will help you get out of here, don't you worry!" You grab the man under the arm and help him stand up.
+To your disbelief he seems to not need help at all. The man says "{self.name}, I have been watching
+you and you made the right choice. I will join forces to help you escape this place."

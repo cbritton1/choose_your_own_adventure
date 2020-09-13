@@ -3,6 +3,7 @@ class Person:
     decision = ''
     matches = 0
     file = 'begin'
+    friends = 0
 
     def __init__(self, name):
         self.name = name
@@ -20,3 +21,17 @@ class Person:
 
     def set_matches_zero(self):
         self.matches = 0
+
+    def set_friends(self):
+        self.friends = 1
+
+class Old_man(Person):
+    fireball = 0
+
+    def __init__(self, name):
+        self.name = name
+        self.matches = 3
+        self.fireball = 5
+
+    def use_fireball(self):
+        self.fireball -= 1
