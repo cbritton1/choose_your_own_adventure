@@ -1,4 +1,4 @@
-from person import Person, Old_man
+from person import Person, OldMan
 from functions import *
 
 from time import sleep
@@ -173,7 +173,7 @@ if __name__ == '__main__':
         elif decision == 'help' or decision == 'h':
             read_formatted_file(player, 'help')
             sleep(5)
-            old_man = Old_man('Old Man')
+            old_man = OldMan('Old Man')
             print('The man in now part of your team!')
             player.set_friends()
             break
