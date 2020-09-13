@@ -1,0 +1,4 @@
+You wake up in a cold wet dungeon. It is dark and you can’t see very well.
+You don’t remember your name or where you are.
+You notice you have {self.matches} matches in your pocket. You strike one to take a look around.
+In the dim light of the match you see a torch posted on the wall as well as a stick laying on the ground.

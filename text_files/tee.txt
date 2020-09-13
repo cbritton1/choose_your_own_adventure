@@ -1,0 +1,3 @@
+You come to a tee in the hall. You can either go LEFT or RIGHT.
+The LEFT path looks like it has recently been traveled.
+the RIGHT path looks like there may be a dim light around a far away corner.
